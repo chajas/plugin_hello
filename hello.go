@@ -48,7 +48,7 @@ func init() {
 		[]dt.State{
 			{
 				OnEntry: func(in *dt.Msg) string {
-					return "Hello world!"
+					return "Hello world! How are you doing today"
 				},
 				OnInput: func(in *dt.Msg) {
 				},
